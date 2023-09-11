@@ -1,14 +1,11 @@
 import { clsx } from 'clsx'
-import Copy from './components/Copy.js'
-import Test from './components/Test.js'
+import { Route, Routes } from 'react-router-dom'
+import Login from './components/Login.js'
 
 function Component() {
   return (
     <div>
-      <Test></Test>
-      <hr />
-      {}
-      <Copy></Copy>
+      <Login></Login>
     </div>
   )
 }
